@@ -1,0 +1,340 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:padding="12dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".YslActivity">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardYsl1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:cardBackgroundColor="#676666"
+        app:cardCornerRadius="15dp">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:padding="8dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/ivYsl1"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintBottom_toBottomOf="parent"
+                android:src="@drawable/ysl1"
+                android:layout_width="150dp"
+                android:layout_height="150dp"/>
+
+            <TextView
+                android:id="@+id/tvYsl1"
+                app:layout_constraintStart_toEndOf="@+id/ivYsl1"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Cushion Foundation"
+                android:textColor="#FFFF"
+                android:textStyle="bold"
+                android:textSize="16dp"/>
+
+            <TextView
+                android:id="@+id/tvDetailYsl1"
+                app:layout_constraintStart_toEndOf="@+id/ivYsl1"
+                app:layout_constraintTop_toBottomOf="@+id/tvYsl1"
+                app:layout_constraintEnd_toEndOf="parent"
+                android:text="No Brandt YSL Touche Eclat Glow Pact Cushion Foundation"
+                android:textColor="#FFFF"
+                android:maxLines="4"
+                android:layout_marginTop="8dp"
+                android:layout_marginStart="8dp"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:id="@+id/tvHargaYsl01"
+                app:layout_constraintTop_toBottomOf="@+id/tvDetailYsl1"
+                app:layout_constraintStart_toEndOf="@+id/ivYsl1"
+                android:text="Rp 945.000"
+                android:textColor="#FFFF"
+                android:layout_marginTop="8dp"
+                android:layout_marginStart="8dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardYsl2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@+id/cardYsl1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:cardBackgroundColor="#676666"
+        android:layout_marginTop="8dp"
+        app:cardCornerRadius="15dp">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:padding="8dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/ivYsl2"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintBottom_toBottomOf="parent"
+                android:src="@drawable/ysl2"
+                android:layout_width="150dp"
+                android:layout_height="150dp"/>
+
+            <TextView
+                android:id="@+id/tvYsl2"
+                app:layout_constraintStart_toEndOf="@+id/ivYsl2"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Eyeshadow"
+                android:textColor="#FFFF"
+                android:textStyle="bold"
+                android:textSize="16dp"/>
+
+            <TextView
+                android:id="@+id/tvDetailYsl2"
+                app:layout_constraintStart_toEndOf="@+id/ivYsl2"
+                app:layout_constraintTop_toBottomOf="@+id/tvYsl2"
+                app:layout_constraintEnd_toEndOf="parent"
+                android:text="Yves Saint Laurent Eyeshadow Ysl"
+                android:textColor="#FFFF"
+                android:maxLines="4"
+                android:layout_marginTop="8dp"
+                android:layout_marginStart="8dp"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:id="@+id/tvHargaYsl02"
+                app:layout_constraintTop_toBottomOf="@+id/tvDetailYsl2"
+                app:layout_constraintStart_toEndOf="@+id/ivYsl2"
+                android:text="Rp 2.015.000"
+                android:textColor="#FFFF"
+                android:layout_marginTop="8dp"
+                android:layout_marginStart="8dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </androidx.cardview.widget.CardView>
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardYsl3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@+id/cardYsl2"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:cardBackgroundColor="#676666"
+        android:layout_marginTop="8dp"
+        app:cardCornerRadius="15dp">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:padding="8dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/ivYsl3"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintBottom_toBottomOf="parent"
+                android:src="@drawable/ysl3"
+                android:layout_width="150dp"
+                android:layout_height="150dp"/>
+
+            <TextView
+                android:id="@+id/tvYsl3"
+                app:layout_constraintStart_toEndOf="@+id/ivYsl3"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Masacara"
+                android:textColor="#FFFF"
+                android:textStyle="bold"
+                android:textSize="16dp"/>
+
+            <TextView
+                android:id="@+id/tvDetailYsl3"
+                app:layout_constraintStart_toEndOf="@+id/ivYsl3"
+                app:layout_constraintTop_toBottomOf="@+id/tvYsl3"
+                app:layout_constraintEnd_toEndOf="parent"
+                android:text="Yves Saint Laurent Ysl Set Lash Masacara Extreme Volume Lc"
+                android:textColor="#FFFF"
+                android:maxLines="4"
+                android:layout_marginTop="8dp"
+                android:layout_marginStart="8dp"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:id="@+id/tvHargaYsl03"
+                app:layout_constraintTop_toBottomOf="@+id/tvDetailYsl3"
+                app:layout_constraintStart_toEndOf="@+id/ivYsl3"
+                android:text="Rp 595.000"
+                android:textColor="#FFFF"
+                android:layout_marginTop="8dp"
+                android:layout_marginStart="8dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardYsl4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@+id/cardYsl3"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:cardBackgroundColor="#676666"
+        android:layout_marginTop="8dp"
+        app:cardCornerRadius="15dp">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:padding="8dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/ivYsl4"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintBottom_toBottomOf="parent"
+                android:src="@drawable/ysl4"
+                android:layout_width="150dp"
+                android:layout_height="150dp"/>
+
+            <TextView
+                android:id="@+id/tvYsl4"
+                app:layout_constraintStart_toEndOf="@+id/ivYsl4"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Setting Spray"
+                android:textColor="#FFFF"
+                android:textStyle="bold"
+                android:textSize="16dp"/>
+
+            <TextView
+                android:id="@+id/tvDetailYsl4"
+                app:layout_constraintStart_toEndOf="@+id/ivYsl4"
+                app:layout_constraintTop_toBottomOf="@+id/tvYsl4"
+                app:layout_constraintEnd_toEndOf="parent"
+                android:text="Ysl Makeup Setting Spray 200Ml"
+                android:textColor="#FFFF"
+                android:maxLines="4"
+                android:layout_marginTop="8dp"
+                android:layout_marginStart="8dp"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:id="@+id/tvHargaYsl04"
+                app:layout_constraintTop_toBottomOf="@+id/tvDetailYsl4"
+                app:layout_constraintStart_toEndOf="@+id/ivYsl4"
+                android:text="Rp 890.000"
+                android:textColor="#FFFF"
+                android:layout_marginTop="8dp"
+                android:layout_marginStart="8dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardYsl5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@+id/cardYsl4"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:cardBackgroundColor="#676666"
+        android:layout_marginTop="8dp"
+        app:cardCornerRadius="15dp">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:padding="8dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/ivYsl5"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintBottom_toBottomOf="parent"
+                android:src="@drawable/ysl5"
+                android:layout_width="150dp"
+                android:layout_height="150dp"/>
+
+            <TextView
+                android:id="@+id/tvYsl5"
+                app:layout_constraintStart_toEndOf="@+id/ivYsl5"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Lipstik"
+                android:textColor="#FFFF"
+                android:textStyle="bold"
+                android:textSize="16dp"/>
+
+            <TextView
+                android:id="@+id/tvDetailYsl5"
+                app:layout_constraintStart_toEndOf="@+id/ivYsl5"
+                app:layout_constraintTop_toBottomOf="@+id/tvYsl5"
+                app:layout_constraintEnd_toEndOf="parent"
+                android:text="Yves Saint Laurent Ysl New Lipstick 3G Rouge Pur Couture The Bold High Pigment Lipstik Elle Future Of Beauty Winner Lipstik Tabung Persegi Emas Hitam Ysl"
+                android:textColor="#FFFF"
+                android:maxLines="4"
+                android:layout_marginTop="8dp"
+                android:layout_marginStart="8dp"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:id="@+id/tvHargaYsl05"
+                app:layout_constraintTop_toBottomOf="@+id/tvDetailYsl5"
+                app:layout_constraintStart_toEndOf="@+id/ivYsl5"
+                android:text="Rp 178.000"
+                android:textColor="#FFFF"
+                android:layout_marginTop="8dp"
+                android:layout_marginStart="8dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.cardview.widget.CardView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

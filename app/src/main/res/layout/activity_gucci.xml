@@ -1,0 +1,342 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:padding="12dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".GucciActivity">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardGucci1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:cardBackgroundColor="#676666"
+        app:cardCornerRadius="15dp">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:padding="8dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/ivGucci1"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintBottom_toBottomOf="parent"
+                android:src="@drawable/guci1"
+                android:layout_width="150dp"
+                android:layout_height="150dp"/>
+
+            <TextView
+                android:id="@+id/tvGucci1"
+                app:layout_constraintStart_toEndOf="@+id/ivGucci1"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Tas Gucci"
+                android:textColor="#FFFF"
+                android:textStyle="bold"
+                android:textSize="16dp"/>
+
+            <TextView
+                android:id="@+id/tvDetailGucci1"
+                app:layout_constraintStart_toEndOf="@+id/ivGucci1"
+                app:layout_constraintTop_toBottomOf="@+id/tvGucci1"
+                app:layout_constraintEnd_toEndOf="parent"
+                android:text="Tas Wanita Horsebit 1955 Small Shoulder Bag Color Beige Ebony Brown. Branded Original"
+                android:textColor="#FFFF"
+                android:maxLines="4"
+                android:layout_marginTop="8dp"
+                android:layout_marginStart="8dp"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:id="@+id/tvHargaGucci01"
+                app:layout_constraintTop_toBottomOf="@+id/tvDetailGucci1"
+                app:layout_constraintStart_toEndOf="@+id/ivGucci1"
+                android:text="Rp 40.200.000"
+                android:textColor="#FFFF"
+                android:layout_marginTop="8dp"
+                android:layout_marginStart="8dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </androidx.cardview.widget.CardView>
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardGucci2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@+id/cardGucci1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:cardBackgroundColor="#676666"
+        android:layout_marginTop="8dp"
+        app:cardCornerRadius="15dp">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:padding="8dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/ivGucci2"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintBottom_toBottomOf="parent"
+                android:src="@drawable/guci2"
+                android:layout_width="150dp"
+                android:layout_height="150dp"/>
+
+            <TextView
+                android:id="@+id/tvGucci2"
+                app:layout_constraintStart_toEndOf="@+id/ivGucci2"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Tas Gucci"
+                android:textColor="#FFFF"
+                android:textStyle="bold"
+                android:textSize="16dp"/>
+
+            <TextView
+                android:id="@+id/tvDetailGucci2"
+                app:layout_constraintStart_toEndOf="@+id/ivGucci2"
+                app:layout_constraintTop_toBottomOf="@+id/tvGucci2"
+                app:layout_constraintEnd_toEndOf="parent"
+                android:text="Gucci Marmont Series Quilted Mini Chain Handbag"
+                android:textColor="#FFFF"
+                android:maxLines="4"
+                android:layout_marginTop="8dp"
+                android:layout_marginStart="8dp"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:id="@+id/tvHargaGucci02"
+                app:layout_constraintTop_toBottomOf="@+id/tvDetailGucci2"
+                app:layout_constraintStart_toEndOf="@+id/ivGucci2"
+                android:text="Rp 4.151.111"
+                android:textColor="#FFFF"
+                android:layout_marginTop="8dp"
+                android:layout_marginStart="8dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </androidx.cardview.widget.CardView>
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardGucci3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@+id/cardGucci2"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:cardBackgroundColor="#676666"
+        android:layout_marginTop="8dp"
+        app:cardCornerRadius="15dp">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:padding="8dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/ivGucci3"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintBottom_toBottomOf="parent"
+                android:src="@drawable/guci3"
+                android:layout_width="150dp"
+                android:layout_height="150dp"/>
+
+            <TextView
+                android:id="@+id/tvGucci3"
+                app:layout_constraintStart_toEndOf="@+id/ivGucci3"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Tas Gucci"
+                android:textColor="#FFFF"
+                android:textStyle="bold"
+                android:textSize="16dp"/>
+
+            <TextView
+                android:id="@+id/tvDetailGucci3"
+                app:layout_constraintStart_toEndOf="@+id/ivGucci3"
+                app:layout_constraintTop_toBottomOf="@+id/tvGucci3"
+                app:layout_constraintEnd_toEndOf="parent"
+                android:text="Gucci Ophidia Series Medium Gg Women'S Tote Bag"
+                android:textColor="#FFFF"
+                android:maxLines="4"
+                android:layout_marginTop="8dp"
+                android:layout_marginStart="8dp"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:id="@+id/tvHargaGucci03"
+                app:layout_constraintTop_toBottomOf="@+id/tvDetailGucci3"
+                app:layout_constraintStart_toEndOf="@+id/ivGucci3"
+                android:text="Rp 79.500.000"
+                android:textColor="#FFFF"
+                android:layout_marginTop="8dp"
+                android:layout_marginStart="8dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardGucci4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@+id/cardGucci3"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:cardBackgroundColor="#676666"
+        android:layout_marginTop="8dp"
+        app:cardCornerRadius="15dp">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:padding="8dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/ivGucci4"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintBottom_toBottomOf="parent"
+                android:src="@drawable/guci4"
+                android:layout_width="150dp"
+                android:layout_height="150dp"/>
+
+            <TextView
+                android:id="@+id/tvGucci4"
+                app:layout_constraintStart_toEndOf="@+id/ivGucci4"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Tas Gucci"
+                android:textColor="#FFFF"
+                android:textStyle="bold"
+                android:textSize="16dp"/>
+
+            <TextView
+                android:id="@+id/tvDetailGucci4"
+                app:layout_constraintStart_toEndOf="@+id/ivGucci4"
+                app:layout_constraintTop_toBottomOf="@+id/tvGucci4"
+                app:layout_constraintEnd_toEndOf="parent"
+                android:text="Gucci Gg Supreme Neo Vintage Belt Bag In Beige / Ebony"
+                android:textColor="#FFFF"
+                android:maxLines="4"
+                android:layout_marginTop="8dp"
+                android:layout_marginStart="8dp"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:id="@+id/tvHargaGucci04"
+                app:layout_constraintTop_toBottomOf="@+id/tvDetailGucci4"
+                app:layout_constraintStart_toEndOf="@+id/ivGucci4"
+                android:text="Rp 13.800.000"
+                android:textColor="#FFFF"
+                android:layout_marginTop="8dp"
+                android:layout_marginStart="8dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardGucci5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@+id/cardGucci4"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:cardBackgroundColor="#676666"
+        android:layout_marginTop="8dp"
+        app:cardCornerRadius="15dp">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:padding="8dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/ivGucci5"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintBottom_toBottomOf="parent"
+                android:src="@drawable/guci5"
+                android:layout_width="150dp"
+                android:layout_height="150dp"/>
+
+            <TextView
+                android:id="@+id/tvGucci5"
+                app:layout_constraintStart_toEndOf="@+id/ivGucci5"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Tas Gucci"
+                android:textColor="#FFFF"
+                android:textStyle="bold"
+                android:textSize="16dp"/>
+
+            <TextView
+                android:id="@+id/tvDetailGucci5"
+                app:layout_constraintStart_toEndOf="@+id/ivGucci5"
+                app:layout_constraintTop_toBottomOf="@+id/tvGucci5"
+                app:layout_constraintEnd_toEndOf="parent"
+                android:text="Gucci Tas 1955 Horsebit Pvc Shoulder L602204 Asd 94 Batam Impor Original Fashion Branded Reseller Sale"
+                android:textColor="#FFFF"
+                android:maxLines="4"
+                android:layout_marginTop="8dp"
+                android:layout_marginStart="8dp"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:id="@+id/tvHargaGucci05"
+                app:layout_constraintTop_toBottomOf="@+id/tvDetailGucci5"
+                app:layout_constraintStart_toEndOf="@+id/ivGucci5"
+                android:text="Rp 340.000"
+                android:textColor="#FFFF"
+                android:layout_marginTop="8dp"
+                android:layout_marginStart="8dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.cardview.widget.CardView>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>
